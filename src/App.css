@@ -13,8 +13,19 @@
   }
 }
 
+.noise {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: url('./media/noise.png');
+  mix-blend-mode: soft-light;
+  background-color: rgba(0, 0, 0, 0.692);
+}
+
 .App-header {
-  background-color: #282c34;
+  position: relative;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
